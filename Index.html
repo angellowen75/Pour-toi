@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Une question pour toi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <main class="stage">
+        <section id="ask" class="ask">
+            <svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            <p class="kicker">Une seule question</p>
+            <h1 id="question">Veux-tu être ma copine&nbsp;?</h1>
+            <p id="tease" class="tease" aria-live="polite"></p>
+            <div id="actions" class="actions">
+                <button id="yes" class="btn yes" type="button">Oui</button>
+                <button id="no" class="btn no" type="button">NON</button>
+                </div>
+                </section>
+
+                <section id="letter" class="letter" hidden>
+                    <p class="letter-head">Une lettre pour toi</p>
+                    <div id="paper" class="paper" tabindex="0" role="region" aria-label="Lettre">
+                        <div id="lines"></div>
+                        </div>
+                        <div id="after" class="after" hidden>
+                            <button id="again" class="btn ghost" type="button">Relire depuis le début</button>
+                            </div>
+                            </section>
+                            </main>
+                            <div id="hearts" class="hearts" aria-hidden="true"></div>
+                            <script src="script.js"></script>
+    
+</body>
+</html>
